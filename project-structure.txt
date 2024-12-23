@@ -1,0 +1,101 @@
+super-app/
+├── mobile/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Button.tsx
+│   │   │   │   ├── Input.tsx
+│   │   │   │   └── Card.tsx
+│   │   │   ├── auth/
+│   │   │   │   ├── LoginForm.tsx
+│   │   │   │   └── SignupForm.tsx
+│   │   │   ├── chat/
+│   │   │   │   ├── ChatList.tsx
+│   │   │   │   └── ChatMessage.tsx
+│   │   │   └── payment/
+│   │   │       ├── PaymentForm.tsx
+│   │   │       └── PaymentHistory.tsx
+│   │   ├── screens/
+│   │   │   ├── auth/
+│   │   │   │   ├── LoginScreen.tsx
+│   │   │   │   └── SignupScreen.tsx
+│   │   │   ├── chat/
+│   │   │   │   ├── ChatListScreen.tsx
+│   │   │   │   └── ChatRoomScreen.tsx
+│   │   │   ├── payment/
+│   │   │   │   ├── PaymentScreen.tsx
+│   │   │   │   └── PaymentHistoryScreen.tsx
+│   │   │   ├── HomeScreen.tsx
+│   │   │   └── ProfileScreen.tsx
+│   │   ├── navigation/
+│   │   │   ├── AppNavigator.tsx
+│   │   │   ├── AuthNavigator.tsx
+│   │   │   └── MainTabNavigator.tsx
+│   │   ├── services/
+│   │   │   ├── api.ts
+│   │   │   ├── auth.ts
+│   │   │   ├── chat.ts
+│   │   │   └── payment.ts
+│   │   ├── utils/
+│   │   │   ├── constants.ts
+│   │   │   └── helpers.ts
+│   │   ├── hooks/
+│   │   │   ├── useAuth.ts
+│   │   │   └── useWebSocket.ts
+│   │   ├── context/
+│   │   │   └── AuthContext.tsx
+│   │   ├── types/
+│   │   │   └── index.ts
+│   │   ├── App.tsx
+│   │   └── index.js
+│   ├── __tests__/
+│   │   ├── components/
+│   │   └── screens/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── app.json
+│   ├── babel.config.js
+│   ├── metro.config.js
+│   ├── package.json
+│   └── tsconfig.json
+├── backend/
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── controllers/
+│   │   │   │   ├── authController.ts
+│   │   │   │   ├── chatController.ts
+│   │   │   │   └── paymentController.ts
+│   │   │   ├── middlewares/
+│   │   │   │   ├── auth.ts
+│   │   │   │   └── errorHandler.ts
+│   │   │   └── routes/
+│   │   │       ├── auth.ts
+│   │   │       ├── chat.ts
+│   │   │       └── payment.ts
+│   │   ├── config/
+│   │   │   ├── database.ts
+│   │   │   └── websocket.ts
+│   │   ├── models/
+│   │   │   ├── User.ts
+│   │   │   ├── Chat.ts
+│   │   │   └── Payment.ts
+│   │   ├── services/
+│   │   │   ├── authService.ts
+│   │   │   ├── chatService.ts
+│   │   │   └── paymentService.ts
+│   │   ├── utils/
+│   │   │   ├── constants.ts
+│   │   │   └── helpers.ts
+│   │   ├── types/
+│   │   │   └── index.ts
+│   │   └── app.ts
+│   ├── test/
+│   │   ├── api/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── package.json
+│   └── tsconfig.json
+└── README.md
+
